@@ -14,8 +14,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 let g:ycm_server_python_interpreter = '/usr/bin/python'
 call vundle#begin()
 
-Plugin 'LaTeX-Box-Team/LaTeX-Box'
+"Other plugins here
 Plugin 'xuhdev/vim-latex-live-preview'
+
 call vundle#end()            " required
 
 let g:Tex_DefaultTargetFormat='pdf'
