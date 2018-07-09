@@ -1,0 +1,171 @@
+\documentclass{article}
+
+\usepackage{cite}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{blindtext}
+\usepackage{hhline}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{siunitx}
+\usepackage[left=1.0cm,top=1.0cm,right=1.0cm,bottom=1.0cm]{geometry}
+
+\setlist{nosep}
+
+\begin{document}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{0.48\textwidth}
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{l l}
+				\textbf{Lists } 	\\
+				;lb	& Standard bullet list  \\
+				;le	& Standard numbered list \\
+				;ls	& List with no bullets \\
+				;li	& New list item \\
+				&  \\
+				\textbf{Maths} 	&  \\
+				;en	& Equation \\
+				;el	& Equation, with label \\
+				;ec	& Equation, with label, caption \\
+				;ed	& Equation, with label, caption, list \\
+				;es	& Equation, no number \\
+				;an	& Align \\
+				;al	& Align, with label \\
+				;ac	& Align, with label, caption \\
+				;ad	& Align, with label, caption, list \\
+				;as	& Align, no number \\
+				;em	& Split, for equation multiline \\
+				;eu	& New line for align and split \\
+				;ma	& Inline math \\
+				&  \\
+				\textbf{Text Modification} 	&  \\
+				;te	& Bold text  \\
+				;ti	& Italic text \\
+				;tu	& Underline text \\
+				;ts	& Small text \\
+				;tt	& Tiny text  \\
+				;tl	& Large text \\
+				;tL	& Larger text \\
+				;th	& Huge text \\
+				;tH	& Hugest text \\
+				;tt	& Text (for maths) \\
+				;tq	& Text quad \\
+				;tn	& Text new line \\
+				&  \\
+				\textbf{Formulas} 	&  \\
+				;ff	& Fraction \\
+				;fi	& Integral \\
+				;fe	& Natural exponent \\
+				;fs	& Sum \\
+				;fa	& Piecewise arguments \\
+				;fp	& Piecewise line \\
+				;fr	& Radical \\
+				;fb	& $\bar{x}$ (Overbar single character) \\
+				;er	& Superscript\\
+				;ef 	& Subscript\\
+				;fl 	& Limit \\
+				&  \\
+				\textbf{Symbols} 	&  \\
+				;si	& $\infty$  \\
+				;sp	& $\approx$   \\
+				;sal	& $\leftarrow $ \\
+				;sar	& $\rightarrow $ \\
+				;sl	& $\leq$  \\
+				;sg	& $\geq $ \\
+				;se	& $\equiv$ \\
+				;sn	& $\neq$ \\
+				;sap	& $\approx$ \\
+				;sd	& $\circ$ \\
+			\end{tabular}
+		\end{table}
+	\end{minipage}%
+	\begin{minipage}{0.04\textwidth}
+		\hfill
+	\end{minipage}%
+	\begin{minipage}{0.48\textwidth}
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{l l}
+				\textbf{Tables} 	&  \\
+				;nt	& New table (n = columns 2-6) \\
+				;nn	& New row (n = columns 2-6) \\
+				&  \\
+				\textbf{Greek Letters} 	&  \\
+				;ga   	& $\alpha  $  \\
+				;gb	& $\beta $  \\
+				;gg	& $\gamma $  \\
+				;gg	& $\Gamma $  \\
+				;gd	& $\delta $  \\
+				;gD	& $\Delta $  \\
+				;ge	& $\epsilon $  \\
+				;gn	& $\eta $  \\
+				;gl	& $\lambda $  \\
+				;gm	& $\mu $  \\
+				;gp 	& $\pi $  \\
+				;gr	& $\rho $ \\
+				;gs	& $\sigma $  \\
+				;gt	& $\tau  $  \\
+				;gx	& $\chi  $  \\
+				;gw	& $\omega $  \\
+				;gO	& $\Omega $  \\
+				;go	& $\theta $  \\
+				;gz     & $\zeta $ \\
+				&  \\
+				\textbf{Sectioning} 	&  \\
+				;sj	& New section  \\
+				;sk	& New subsection \\
+				;sl	& New subsubsection \\
+				&  \\
+				\textbf{Code} 	&  \\
+				;cn	& Default code input \\
+				&  \\
+				\textbf{Figures} 	&  \\
+				;bfe	& External figure graphic \\
+				;bfn	& Standard figure container \\
+				&  \\
+				\textbf{Minipages} 	&  \\
+				;nem	& Minipage, no spacing (n = 2-4) \\
+				;nsm	& Minipage with spacing (n = 2-4) \\
+				;ncm	& Minipage custom (n = 2-4) \\
+				&  \\
+				\textbf{Columns} 	&  \\
+				;mc	& Columns \\
+				&  \\
+				\textbf{Referencing} 		&  \\
+				;re	& Reference equation \\
+				;rt	& Reference tag \\
+				;rr	& Cite \\
+				&  \\
+				&  \\
+				&  \\
+				&  \\
+				&  \\
+				&  \\
+				&  \\
+				&  \\
+				&  \\
+	\end{tabular}
+	\label{table:none}
+\end{table}
+
+	\end{minipage}
+\end{figure}
+\vfill
+17-October-2017
+\end{document}
+
+% Shortcuts
+
+% ":LL" - Start Autocompilation and Preview (temporary PDF)
+% "\ll" - Full compilation
+% "\lv" - Full preview
+% "\lC" - Clean folder of all files except bib file (for references) and .tex file
+
+% "F4" - Reference to all latex defined macros
+% "F5" - Reference to Vim shortcuts
