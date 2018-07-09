@@ -42,5 +42,7 @@ Done
   - "\lv" - Full preview using default pdf viewer
   - "\lC" - Clean folder of all files except bib file (for references) and .tex file
 
+Any of the commands located in latexSnip/latexSnips.pdf can now be used in insert mode.
+
   
   
