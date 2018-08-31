@@ -78,7 +78,6 @@ inoremap ;ef ^{<++>} <++><Esc>gg/<++><Enter>"_c4l
 inoremap ;aa \subsubsection{<++>}<Enter>\begin{figure}[H]<Enter>\begin{align*}<Enter><++> &= <++><Enter>\end{align*}<Enter>\emph{where:}<Enter>\begin{table}[H]<Enter>\begin{tabular}{l l l}<Enter>$<++>$ &=& <++> \\ <++><Enter>$<++>$ &=& <++> \\<++><Enter>\end{tabular}<Enter>\end{table}\end{figure}<Enter><++><Esc>gg/<++><Enter>"_c4l
 inoremap ;au <Esc>o$<++>$ &=& <++> \\ <++><Esc>gg/<++><Enter>"_c4l
 
-
 "text modification
 inoremap ;te \textbf{<++>} <++><Esc>gg/<++><Enter>"_c4l
 inoremap ;ti \textit{<++>} <++><Esc>gg/<++><Enter>"_c4l
@@ -99,15 +98,15 @@ inoremap ;sk \subsection{<++>}<Enter><++><Esc>gg/<++><Enter>"_c4l
 inoremap ;sm \subsubsection{<++>}<Enter><++><Esc>gg/<++><Enter>"_c4l
 
 "tables
-inoremap ;2t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l}<Enter>\hline<Enter><++> & <++> \\<Enter>\hline<Enter><++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter>\label{tab:<++>}<Enter>\caption{<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
+inoremap ;2t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l}<Enter>\hline<Enter><++> & <++> \\<Enter>\hline<Enter><++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter>\caption{<++>}<Enter>\label{tab:<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
 inoremap ;2n <Esc>o<++> & <++> \\<Esc>gg/<++><Enter>"_c4l
-inoremap ;3t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l}<Enter>\hline<Enter><++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter>\label{tab:<++>}<Enter>\caption{<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
+inoremap ;3t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l}<Enter>\hline<Enter><++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter><\caption{<++>}<Enter>\label{tab:<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
 inoremap ;3n <Esc>o<++> & <++> & <++> \\<Esc>gg/<++><Enter>"_c4l
-inoremap ;4t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l l}<Enter>\hline<Enter><++> & <++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter>\label{tab:<++>}<Enter>\caption{<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
+inoremap ;4t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l l}<Enter>\hline<Enter><++> & <++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter><\caption{<++>}<Enter>\label{tab:<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
 inoremap ;4n <Esc>o<++> & <++> & <++> &<++> \\<Esc>gg/<++><Enter>"_c4l
-inoremap ;5t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l l l}<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter>\label{tab:<++>}<Enter>\caption{<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
+inoremap ;5t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l l l}<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter><\caption{<++>}<Enter>\label{tab:<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
 inoremap ;5n <Esc>o<++> & <++> & <++> &<++> & <++> \\<Esc>gg/<++><Enter>"_c4l
-inoremap ;6t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l l l l}<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter>\label{tab:<++>}<Enter>\caption{<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
+inoremap ;6t \begin{table}[H]<Enter>\centering<Enter>\begin{tabular}{l l l l l l}<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter><++> & <++> & <++> & <++> & <++> & <++> \\<Enter>\hline<Enter>\end{tabular}<Enter><\caption{<++>}<Enter>\label{tab:<++>}<Enter>\end{table}<Enter><++><Esc>gg/<++><Enter>"_c4l
 inoremap ;6n <Esc>o<++> & <++> & <++> & <++> &<++> & <++> \\<Esc>gg/<++><Enter>"_c4l
 
 "formulas
@@ -159,8 +158,8 @@ inoremap ;cn \begin{figure}[H]<Enter>\lstset{frame=L,basicstyle={\small\ttfamily
 inoremap ;cb \lstset{frame=N,basicstyle={\small\ttfamily},numbers=none,tabsize=1,breaklines=true,showstringspaces=false}<Enter>\begin{lstlisting}<Enter><++><Enter>\end{lstlisting}<Enter><++><Esc>gg/<++><Enter>"_c4l
 
 "figures
-inoremap ;bfe \begin{figure}[H]<Enter>\centering<Enter>\captionsetup{justification=centering}<Enter>\includegraphics[width=<++>\linewidth]{<++>}<Enter>\label{fig:<++>}<Enter>\caption{<++>}<Enter>\end{figure}<Enter><++><Esc>gg/<++><Enter>"_c4l
-inoremap ;bfn \begin{figure}[H]<Enter>\centering<Enter>\captionsetup{justification=centering}<Enter><++><Enter>\label{fig:<++>}<Enter>\caption{<++>}<Enter>\end{figure}<Enter><++><Esc>gg/<++><Enter>"_c4l
+inoremap ;bfe \begin{figure}[H]<Enter>\centering<Enter>\captionsetup{justification=centering}<Enter>\includegraphics[width=<++>\linewidth]{<++>}<Enter><\caption{<++>}<Enter>\label{fig:<++>}<Enter>\end{figure}<Enter><++><Esc>gg/<++><Enter>"_c4l
+inoremap ;bfn \begin{figure}[H]<Enter>\centering<Enter>\captionsetup{justification=centering}<Enter><++><Enter><\caption{<++>}<Enter>\label{fig:<++>}<Enter>\end{figure}<Enter><++><Esc>gg/<++><Enter>"_c4l
 
 "minipages
 inoremap ;2em \begin{figure}[H]<Enter>\centering<Enter>\begin{minipage}{0.5\textwidth}<Enter>\centering<Enter><++><Enter>\end{minipage}%<Enter>\begin{minipage}{0.5\textwidth}<Enter>\centering<Enter><++><Enter>\end{minipage}<Enter>\end{figure}<Enter><++><Esc>gg/<++><Enter>"_c4l
